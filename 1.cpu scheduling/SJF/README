@@ -1,1 +1,9 @@
-
+Short job first:
+ Solution to the Convoy Effect problem.
+ Assume the next burst time of each process is known
+ SJF selects process which has the shortest burst time
+ Optimal algorithm because it has the shortest average waiting time
+ Equal burst time processes are scheduled in FCFS order
+ Impossible to know in advance
+ OS knows the past burst times- make a prediction using an average
+ Non-preemptive Or preemptive
