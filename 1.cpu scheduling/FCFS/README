@@ -1,1 +1,11 @@
+First come first serve
+ First-come, First served is the simplest scheduling algorithm.
+ Ready queue is a FIFO queue.
+ Longest waiting process at the front of queue.
+ New ready processes join the rear.
+ Non-preemptive: executes until voluntarily gives up CPU finished or waits for some event.
+ Convoy Effect Problem: CPU bound process may execute a long CPU burst processes, so the
+processes with very short CPU bursts, wait in queue Reduces CPU and I/O device utilization.
+
+Implementation:
 
