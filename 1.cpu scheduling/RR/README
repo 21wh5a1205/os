@@ -1,1 +1,11 @@
-
+Round Robin:
+ Similar to FCFS, but preemption to switch between processes
+ Time quantum(time slice) is a small unit of time (10 to 100 ms)
+ Process is executed on the CPU for at most one-time quantum
+ Implemented by using the ready queue as a circular queue
+ Head process gets the CPU
+ Uses less than a time quantum implies gives up the CPU voluntary
+ Uses full time quantum implies timer will cause an interrupt
+ Context switch will be executed
+ Process will be put at the tail of queue
+ Preemptive
